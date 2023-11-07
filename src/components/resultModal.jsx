@@ -6,7 +6,7 @@ let Result = forwardRef(({ targetTime, result, reset }, ref) => {
   return (
     <dialog className="result-modal" ref={ref} onClose={reset}>
       {lost && <h2>You Lost</h2>}
-      {!lost && <h2>yorr score {score} </h2>}
+      {!lost && <h2>yorr score {score}%</h2>}
       <p>
         The target time was{" "}
         <strong>
